@@ -41,7 +41,6 @@ class DB{
             if ($this->_query->execute()){
                 echo "executed". "<br>";
                     $this->_count = $this->_query->rowCount();
-                    $this->_results = $this->_query->fetchAll(PDO::FETCH_OBJ);
 
             }
             else { $this->_error = true;}
@@ -66,6 +65,42 @@ class DB{
         }
 
     }
+    public function insert($table, $fields = array()){
+        if (count($fields)) {
+            $keys = array_keys($fields);
+            $implodedKeys = implode("`, `", $keys);
+            $values = '';
+            $x = 1;
+            foreach ($fields as $field) {
+                $values .= '?';
+                if (count($fields) > $x) {
+                    $values .= ',';
+                }
+                $x++;
+            }
+            $sql = "INSERT INTO $table(`$implodedKeys`) VALUES($values) ";
+            if (!$this->query($sql,$fields)->error()){
+                echo "success";
+            }
+        }
+        return false;
+    }
+    public function update($table, $id,$fields = array()){
+        $set = '';
+        $x = 1;
+        foreach ($fields as $field => $value){
+            $set .= "$field = ?";
+            if (count($fields) > $x){
+                $set .= ',';
+            }
+            $x++;
+        }
+
+        $sql = "UPDATE $table SET $set WHERE id = $id";
+        if (!$this->query($sql,$fields)->error()){
+            echo "</br>" . "updated " ;
+        }
+    }
 
     public function get($table, $where){
         return $this->action("SELECT *",$table,$where);
@@ -81,7 +116,7 @@ class DB{
         return $this->_count;
     }
     public function result(){
-        return $this->_results;
+        return $this->_results = $this->_query->fetchAll(PDO::FETCH_OBJ);
     }
 
 }
