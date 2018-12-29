@@ -4,11 +4,18 @@
     <list default="true" id="36ad3a3f-0beb-48bd-8995-67e88338e308" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <change beforePath="$PROJECT_DIR$/classes/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/DB.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes/Validation" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
 >>>>>>> database
+=======
+      <change beforePath="$PROJECT_DIR$/classes/Input.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Input.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/Validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/sanitization.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/sanitization.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+>>>>>>> validation
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,17 +30,7 @@
         <entry file="file://$PROJECT_DIR$/index.php">
 =======
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/init.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/Config.php">
->>>>>>> database
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
@@ -41,11 +38,29 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/Config.php">
+>>>>>>> database
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+=======
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes/Validation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+>>>>>>> validation
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1438">
-              <caret line="100" column="38" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
+            <state relative-caret-position="128">
+              <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -54,12 +69,17 @@
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="38">
               <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
 =======
             <state relative-caret-position="152">
               <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
 >>>>>>> database
+=======
+            <state relative-caret-position="38">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+>>>>>>> validation
             </state>
           </provider>
         </entry>
@@ -72,11 +92,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/functions/sanitization.php" />
         <option value="$PROJECT_DIR$/classes/Config.php" />
         <option value="$PROJECT_DIR$/core/init.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/classes/DB.php" />
+        <option value="$PROJECT_DIR$/functions/sanitization.php" />
+        <option value="$PROJECT_DIR$/register.php" />
+        <option value="$PROJECT_DIR$/classes/Input.php" />
+        <option value="$PROJECT_DIR$/classes/Validation.php" />
       </list>
     </option>
   </component>
@@ -93,9 +116,13 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scope" />
 =======
 >>>>>>> database
+=======
+      <pane id="Scope" />
+>>>>>>> validation
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,21 +136,30 @@
               <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> validation
             <path>
               <item name="alex" type="b2602c69:ProjectViewProjectNode" />
               <item name="alex" type="462c0819:PsiDirectoryNode" />
               <item name="functions" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
 =======
 >>>>>>> database
+=======
+>>>>>>> validation
           </expand>
           <select />
         </subPane>
       </pane>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <pane id="Scope" />
 >>>>>>> database
+=======
+>>>>>>> validation
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,25 +198,37 @@
       <workItem from="1545596108164" duration="2827000" />
       <workItem from="1545777062380" duration="2763000" />
       <workItem from="1545784236648" duration="2626000" />
+      <workItem from="1545854311849" duration="1932000" />
+      <workItem from="1545879664858" duration="2075000" />
+      <workItem from="1545946071763" duration="6784000" />
+      <workItem from="1546033401919" duration="3996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="28791000" />
 =======
     <option name="totallyTimeSpent" value="36614000" />
 >>>>>>> database
+=======
+    <option name="totallyTimeSpent" value="51401000" />
+>>>>>>> validation
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="25" width="1311" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26166007" />
 =======
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27114624" />
 >>>>>>> database
+=======
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29011858" />
+>>>>>>> validation
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -236,6 +284,7 @@
     <entry file="file://$PROJECT_DIR$/logout.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -243,6 +292,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> validation
     <entry file="file://$PROJECT_DIR$/profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -256,6 +307,7 @@
     <entry file="file://$PROJECT_DIR$/changepwd.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/functions/sanitization.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -270,6 +322,8 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
 >>>>>>> database
+=======
+>>>>>>> validation
     <entry file="file://$PROJECT_DIR$/core/init.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -299,18 +353,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/functions/sanitization.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="38">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Input.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1438">
           <caret line="100" column="38" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
 >>>>>>> database
+=======
+        <state relative-caret-position="128">
+          <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+>>>>>>> validation
         </state>
       </provider>
     </entry>
